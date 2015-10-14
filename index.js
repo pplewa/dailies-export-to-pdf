@@ -3,7 +3,7 @@ var Promise = require('es6-promise').Promise;
 var fs = require('fs');
 
 var client = new Evernote.Client({
-	token: process.env.TOKEN,
+	token: process.env.EVERNOTE_TOKEN,
 	sandbox: false
 });
 
