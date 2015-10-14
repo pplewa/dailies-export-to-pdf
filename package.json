@@ -1,0 +1,26 @@
+{
+  "name": "evernote-to-pdf",
+  "version": "0.0.1",
+  "description": "Evernote to PDF converter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pplewa/evernote-to-pdf.git"
+  },
+  "keywords": [
+    "Evernote",
+    "PDF"
+  ],
+  "author": "plewus@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pplewa/evernote-to-pdf/issues"
+  },
+  "homepage": "https://github.com/pplewa/evernote-to-pdf#readme",
+  "dependencies": {
+    "evernote": "^1.25.82"
+  }
+}
