@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/pplewa/evernote-to-pdf#readme",
   "dependencies": {
+    "es6-promise": "^3.0.2",
     "evernote": "^1.25.82"
   }
 }

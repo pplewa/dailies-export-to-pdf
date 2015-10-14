@@ -1,4 +1,5 @@
 var Evernote = require('evernote').Evernote;
+var Promise = require('es6-promise').Promise;
 var fs = require('fs');
 
 var client = new Evernote.Client({
@@ -7,7 +8,6 @@ var client = new Evernote.Client({
 });
 
 var noteStore = client.getNoteStore();
-
 
 var filter = new Evernote.NoteFilter({
 	words: 'notebook:journal intitle:(PDF)',
