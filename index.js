@@ -48,7 +48,8 @@ function saveFileFromBytes(title, bytes, callback) {
 		for (var i = 0; i < bytes.length; i++) {
 		    b[i] = bytes[i];
 		}
-		fs.writeFile(title.replace(/\//g, '-') + '.pdf', b, 'binary', function(err) {
+		title = title.replace(/\//g, '-').replace(' (PDF)', '') + '.pdf';
+		fs.writeFile(title.replace(/\//g, '-').replace(' (PDF)', '') + '.pdf', b, 'binary', function(err) {
 		    if (err) {
 		        reject(err);
 		    } else {
